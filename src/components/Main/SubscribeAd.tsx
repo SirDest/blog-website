@@ -9,6 +9,7 @@ const SubscribeAd = () => {
   const closeAd = () => {
     setSubAd(false);
   };
+
   return (
     <div
       className={`${

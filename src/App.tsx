@@ -3,13 +3,15 @@ import "./App.css";
 import Header from "./components/Headers/Header";
 import Landing from "./components/Main/Landing";
 import SubscribeAd from "./components/Main/SubscribeAd";
+import SignInPage from "./components/SignIn/SignInPage";
 
 function App() {
   return (
     <div className='w-full flex flex-col'>
-      <Header />
+      {/* <Header />
       <SubscribeAd />
-      <Landing />
+      <Landing /> */}
+      <SignInPage />
     </div>
   );
 }
