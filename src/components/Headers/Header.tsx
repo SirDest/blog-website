@@ -21,9 +21,9 @@ const Header = () => {
           <SubscribeButton />
           <button className='group flex gap-3 items-center hover:bg-white rounded-none cursor-pointer px-3 py-1 transition-all duration-300 lg:border-l-0 border-l border-l-white'>
             <IoPersonOutline />
-            <button className='group-hover:underline hidden md:block'>
+            <span className='group-hover:underline hidden md:block'>
               Sign In
-            </button>
+            </span>
           </button>
 
           <button className='hidden lg:block'>
