@@ -8,10 +8,12 @@ import SignInPage from "./components/SignIn/SignInPage";
 function App() {
   return (
     <div className='w-full flex flex-col'>
-      {/* <Header />
-      <SubscribeAd />
-      <Landing /> */}
-      <SignInPage />
+      <Header />
+      <div className='w-full h-fit lg:px-16 md:px-8 px-4'>
+        <SubscribeAd />
+        <Landing />
+      </div>
+      {/* <SignInPage /> */}
     </div>
   );
 }

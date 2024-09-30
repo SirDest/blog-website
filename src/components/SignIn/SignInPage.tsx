@@ -11,7 +11,7 @@ const SignInPage = () => {
           className='w-full h-full object-cover'
         />
       </div>
-      <div className='w-1/2 h-full'></div>
+      <div className='w-1/2 h-full bg-gray-300'></div>
     </div>
   );
 };
